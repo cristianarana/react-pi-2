@@ -1,0 +1,85 @@
+{
+    "about":{
+		"name": "Cristian",
+		"surname": "Arana",
+		"age": "32",
+		"address": "LA PLATA, BUENOS AIRES, ARGENTINA · CO 1900",
+		"email": "CRISTIANARANA767@GMAIL.COM",
+		"degree": "System Engineer"
+	},
+	"experience": [
+		{
+			"company": "WAKAPI",
+			"position": "Full Stack DEVELOPER",
+			"description": "Full Stack developer using PHP - Slim, ReactJs, MySql",
+			"date": "Dec 2022 - Present"
+		},
+		{
+			"company": "GLOBALHITSS - CONO SUR",
+			"position": "PHP DEVELOPER",
+			"description": "Backend developer using PHP v8. Nosql with elastic",
+			"date": "May 2022 - Dec 2022"
+		},
+        {
+			"company": "DAFITI",
+			"position": "FULL-STACK DEVELOPER",
+			"description": "Full stack developer (PHP - React)",
+			"date": "Jan 2021 - Mar 2022"
+		},
+        {
+			"company": "ACCENTURE",
+			"position": "SALESFORCE DEVELOPER",
+			"description": "Working in projects using Salesforce platform as admin. Intagration with external platforms and developr new features using apex code",
+			"date": "Jan 2018 - Jan 2021"
+		},
+        {
+			"company": "YOUMARKET",
+			"position": "FULL-STACK DEVELOPER",
+			"description": "Full stack developer for internal system (PHP - JQuery - JS)",
+			"date": "May 2017 - Nov 2017"
+		},
+        {
+			"company": "SIGNUMENERGY",
+			"position": "BACK-END DEVELOPER",
+			"description": "Backend developer for internal system (PHP - JQuery - JS)",
+			"date": "Mar 2016 - May 2017"
+		}
+		
+	],
+	"education": [
+        {
+			"institute": "CODERHOUSE",
+			"carrer": "DATA SCIENCE",
+			"date": "May 2021 - Nov 2021"
+		},
+		{
+			"institute": "UTN - FRLP",
+			"carrer": "INFORMATION SYSTEMS ENGINEER",
+			"date": "Mar 2008 - 2020"
+		},
+        {
+			"institute": "UTN - BA",
+			"carrer": "Java Developer",
+			"date": "Mar 2014 - Aug 2014"
+		}
+		
+	],
+	"skills": {
+		"dev": [
+			"css3",
+			"html5",
+			"js",
+			"react",
+			"php",
+			"python",
+			"git",
+			"bootstrap"
+		],
+		"work": [
+			"Responsive Design",
+			"Unit Testing",
+			"Cross Functional Teams",
+			"Agile Development & Scrum"
+		]
+	}
+}

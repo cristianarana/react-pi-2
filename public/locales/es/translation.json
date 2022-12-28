@@ -1,0 +1,37 @@
+{
+    "header.home":"Inicio",
+    "header.about":"Sobre mi",
+    "header.experience":"Experiencia",
+    "header.education":"Educación",
+    "header.resume":"CV",
+    "header.contact":"Contacto",
+
+    "about.title":"Sobre mi",
+    "about.profesion": "Full Stack Developer",
+    "about.description":"Soy autodidacta y busco constantemente nuevos desafíos que permitan desarrollarme en plano profesional, como también me permitan adquirir una mayor experiencia y conocimiento. Me considero una persona apta para trabajar en equipos, me adapto fácilmente a los distintos ambientes.",
+    "about.name":"Nombre:",
+    "about.surname":"Apellido:",
+    "about.age":"Edad:",
+    "about.address":"Dirección:",
+    "about.degree":"Título/s:",
+    "about.email":"Correo:",
+
+    "experience.title":"Experiencia",
+    "experience.description":"Aquí muestro mi experiencia personal como profesional para que pueda conocerme mejor.",
+    
+    "education.title": "Educación & Habilidades",
+    "education.description": "Aquí describo mi educación y mi crecimiento profesional en estos años en los que trabaje en diferentes equipos y empresas.",
+    "education.education": "Educacion",
+    "education.skills": "Habilidades",
+    "education.technologies": "Tecnologías",
+    "education.workingmethod": "Metodologías de trabajo",
+   
+    "resume.title": "Curriculum Vitae",
+    "resume.description": "Aquí puede descargar mi cv actualizado.",
+    "resume.descarga":"Descarga - ES ",
+    "resume.download":"Download - EN",
+
+    "contact.title": "Estamos en contacto",
+    "contact.description": "Interesado en trabajar juntos? Complete el formluario a continuación con algo de información sobre el proyecto o idea a llevar a cabo y tan pronto como pueda me pondré en contacto. Gracias."
+
+}
