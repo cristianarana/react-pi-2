@@ -1,7 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
-import ExperienceCard from "../components/Experience/Experience_card";
+import ExperienceCard from "../../components/Experience/Experience_card";
 import { useTranslation } from "react-i18next"; 
+import './Experience.css';
+import '../../components/Experience/Experience.css';
+
 
 export default function Experience(props) {
   const{t} = useTranslation();

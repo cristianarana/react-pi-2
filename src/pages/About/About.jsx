@@ -1,5 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next"; 
+import './About.css';
+import { Icon } from '@iconify/react';
 
 export default function About({ data }) {
   const {t, i18n} = useTranslation();
@@ -19,27 +21,27 @@ export default function About({ data }) {
           <div className="col-lg-6">
             <ul>
               <li>
-                <i className="bi bi-chevron-right"></i> <strong>{t('about.name')}</strong>{" "}
+              <Icon icon="ic:outline-chevron-right" color="#149ddd" /><strong>{t('about.name')}</strong>{" "}
                 <span>{name}</span>
               </li>
               <li>
-                <i className="bi bi-chevron-right"></i>{" "}
+              <Icon icon="ic:outline-chevron-right" color="#149ddd" />{" "}
                 <strong>{t('about.surname')}</strong> <span>{surname}</span>
               </li>
               <li>
-                <i className="bi bi-chevron-right"></i> <strong>{t('about.age')}</strong>{" "}
+              <Icon icon="ic:outline-chevron-right" color="#149ddd" /><strong>{t('about.age')}</strong>{" "}
                 <span>{age}</span>
               </li>
               <li>
-                <i className="bi bi-chevron-right"></i>{" "}
+                <Icon icon="ic:outline-chevron-right" color="#149ddd" />{" "}
                 <strong>{t('about.address')}</strong> <span>{address}</span>
               </li>
               <li>
-                <i className="bi bi-chevron-right"></i> <strong>{t('about.degree')}</strong>{" "}
+                <Icon icon="ic:outline-chevron-right" color="#149ddd" /><strong>{t('about.degree')}</strong>{" "}
                 <span>{degree}</span>
               </li>
               <li>
-                <i className="bi bi-chevron-right"></i> <strong>{t('about.email')}</strong>{" "}
+                <Icon icon="ic:outline-chevron-right" color="#149ddd" /><strong>{t('about.email')}</strong>{" "}
                 <span>{email}</span>
               </li>
             </ul>
