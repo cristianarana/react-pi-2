@@ -5,11 +5,14 @@ import { NavbarData } from './NavbarData';
 import LanguageSelector from '../Language';
 import './Navbar.css';
 import { IconContext } from 'react-icons';
-import {  NavLink, Link } from 'react-router-dom'
+import {  NavLink, Link } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.css';
+import { Icon } from '@iconify/react';
+import { useTranslation } from "react-i18next";
 
 function Navbar() {
     const [sidebar, setSidebar] = useState(false);
-  
+    const {t, i18n} = useTranslation();
     const showSidebar = () => setSidebar(!sidebar);
   
     return (
@@ -19,6 +22,7 @@ function Navbar() {
             <Link to='#' className='menu-bars'>
               <FaIcons.FaBars onClick={showSidebar} />
             </Link>
+            <LanguageSelector />
           </div>
           <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
             <ul className='nav-menu-items' onClick={showSidebar}>
@@ -29,12 +33,12 @@ function Navbar() {
               </li>
 
               <li className="profile">
-                <img src="/assets/img/profile-img.jpg" alt="" className="img-fluid rounded-circle" />
+                <img src="img/profile-img.jpg" alt="" className="rounded-circle" />
                 <h1 className="text-light"><NavLink to="index.html">Cristian Arana</NavLink></h1>
                 <div className="social-links mt-3 text-center">
-                    <Link to="https://www.instagram.com/nappier90/" className="instagram" target="_blank"><i className="bx bxl-instagram"></i></Link>
-                    <Link to="https://www.linkedin.com/in/cristian-david-arana-a8959941/" className="linkedin" target="_blank"><i className="bx bxl-linkedin"></i></Link>
-                    <Link to="https://github.com/cristianarana" className="github" target="_blank"><i className="bx bxl-github"></i></Link>
+                    <Link to="https://www.instagram.com/nappier90/"><Icon icon="mdi:instagram" className='bx'/></Link>
+                    <Link to="https://www.linkedin.com/in/cristian-david-arana-a8959941/"><Icon icon="ci:linkedin" /></Link>
+                    <Link to="https://github.com/cristianarana"><Icon icon="radix-icons:github-logo" /></Link>
                 </div>
                 </li>
               {NavbarData.map((item, index) => {
@@ -47,7 +51,6 @@ function Navbar() {
                   </li>
                 );
               })}
-              <li><LanguageSelector /></li>
             </ul>
           </nav>
         </IconContext.Provider>
