@@ -1,0 +1,39 @@
+{
+    "header.home":"Home",
+    "header.about":"About",
+    "header.experience":"Experience",
+    "header.education":"Education",
+    "header.resume":"Resume",
+    "header.contact":"Contact",
+
+    "about.title":"About",
+    "about.profesion": "Full Stack Developer",
+    "about.description":"I'm self-taught and constantly looking for new challenges that allow me to develop profesionally, as well as let me aquire more experience. I consider my self fit to work with teams, because i can adapt to different workteams or workplaces.",
+    "about.name":"Name:",
+    "about.surname":"SurName:",
+    "about.age": "Age:",
+    "about.address":"Address:",
+    "about.degree":"Degree:",
+    "about.email":"Email:",
+
+    "experience.title":"Experience",
+    "experience.description":"To know me better as profesional, I decided to list my profesional experience as software developer.",
+    
+    "education.title": "Education & Skills",
+    "education.description": "Here you can appreciate my education and my professional develoment above this years that i have been working with different teams and companies.",
+    "education.education": "Education",
+    "education.skills": "Skills",
+    "education.technologies": "Technologies",
+    "education.workingmethod": "Working Method",
+
+    "resume.title": "Resume",
+    "resume.description": "Here you can download or see my updated resume.",
+    "resume.download":"Download - EN",
+    "resume.descarga":"Descarga - ES ",
+
+    "contact.title": "Get in touch",
+    "contact.description": "Interested in working together? Fill out the form bellow with some info about your project or idea and I will get to you as soon as I can. Please allow a couple days for me to respond."
+
+
+
+}
