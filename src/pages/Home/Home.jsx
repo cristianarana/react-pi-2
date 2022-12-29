@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css';
-import { Cursor, useTypewriter } from 'react-simple-typewriter';
+import { useTypewriter } from 'react-simple-typewriter';
 
 const Home = () => {
   const [text] = useTypewriter({

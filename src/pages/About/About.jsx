@@ -4,7 +4,7 @@ import './About.css';
 import { Icon } from '@iconify/react';
 
 export default function About({ data }) {
-  const {t, i18n} = useTranslation();
+  const {t} = useTranslation();
   const { name, surname, age, address, email, degree } = data;
   return (
     <section id="about" className="about">

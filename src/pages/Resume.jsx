@@ -1,8 +1,8 @@
-import React, {useState} from "react";
+import React from "react";
 import { useTranslation } from "react-i18next"; 
 
 export default function Resume() {
-  const {t,i18n} = useTranslation();
+  const {t} = useTranslation();
   const handleDownload = () => {
     fetch('resume-en.pdf').then(response=>{
         response.blob().then(blob=>{
