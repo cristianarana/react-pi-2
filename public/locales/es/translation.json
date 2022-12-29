@@ -32,6 +32,9 @@
     "resume.download":"Download - EN",
 
     "contact.title": "Estamos en contacto",
-    "contact.description": "Interesado en trabajar juntos? Complete el formluario a continuación con algo de información sobre el proyecto o idea a llevar a cabo y tan pronto como pueda me pondré en contacto. Gracias."
-
+    "contact.description": "Interesado en trabajar juntos? Complete el formluario a continuación con algo de información sobre el proyecto o idea a llevar a cabo y tan pronto como pueda me pondré en contacto. Gracias.",
+    "contact.fullname": "Nombre completo",
+    "contact.email": "Correo",
+    "contact.Subject": "Asunto",
+    "contact.bodymsg": "Escriba su mensaje aquí"
 }

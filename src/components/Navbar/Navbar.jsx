@@ -42,15 +42,15 @@ const Navbar = () => {
                 <NavLink to="index.html">Cristian Arana</NavLink>
               </h1>
               <div className="social-links mt-3 text-center">
-                <Link to="https://www.instagram.com/nappier90/">
+              <a href="https://www.instagram.com/nappier90/" target="_blank">
                   <Icon icon="mdi:instagram" className="bx" />
-                </Link>
-                <Link to="https://www.linkedin.com/in/cristian-david-arana-a8959941/">
+                </a>
+                <a href="https://www.linkedin.com/in/cristian-david-arana-a8959941/" target="_blank">
                   <Icon icon="ci:linkedin" />
-                </Link>
-                <Link to="https://github.com/cristianarana">
+                </a>
+                <a href="https://github.com/cristianarana" className="github" target="_blank">
                   <Icon icon="radix-icons:github-logo" />
-                </Link>
+                </a>
               </div>
             </li>
             {NavbarData.map((item, index) => {

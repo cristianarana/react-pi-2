@@ -1,6 +1,7 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import { useTranslation } from "react-i18next"; 
+import './Contact.css'
 
 export default function Contact() {
   const {t} = useTranslation();
@@ -50,7 +51,7 @@ export default function Contact() {
               <input
                 type="text"
                 {...register("name", { maxLength: 40 })}
-                placeholder="FullName"
+                placeholder={t('contact.fullname')}
                 className="form-control"
               />
               {errors.name?.type === "maxLength" && (
@@ -64,7 +65,7 @@ export default function Contact() {
                   required: true,
                   pattern: /^[^\s@]+@[^\s@]+\.[^\s@]+$/i,
                 })}
-                placeholder="Email"
+                placeholder={t('contact.email')}
                 className="form-control"
               />
               {errors.email?.type === "required" && (
@@ -78,7 +79,7 @@ export default function Contact() {
               <input
                 type="text"
                 {...register("subject", { required: true })}
-                placeholder="Subject"
+                placeholder={t('contact.subject')}
                 className="form-control"
               />
               {errors.subject?.type === "required" && (
@@ -88,7 +89,7 @@ export default function Contact() {
             <div className="form-group">
               <textarea
                 {...register("message", { required: true })}
-                placeholder="Write your message"
+                placeholder={t('contact.bodymsg')}
                 rows="10"
                 className="form-control"
               />

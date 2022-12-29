@@ -32,8 +32,9 @@
     "resume.descarga":"Descarga - ES ",
 
     "contact.title": "Get in touch",
-    "contact.description": "Interested in working together? Fill out the form bellow with some info about your project or idea and I will get to you as soon as I can. Please allow a couple days for me to respond."
-
-
-
+    "contact.description": "Interested in working together? Fill out the form bellow with some info about your project or idea and I will get to you as soon as I can. Please allow a couple days for me to respond.",
+    "contact.fullname": "Full name",
+    "contact.email": "Email",
+    "contact.Subject": "Subject",
+    "contact.bodymsg": "Write your message here"
 }
