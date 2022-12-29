@@ -8,11 +8,9 @@ import { IconContext } from "react-icons";
 import { NavLink, Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
 import { Icon } from "@iconify/react";
-import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
   const [sidebar, setSidebar] = useState(false);
-  const { t, i18n } = useTranslation();
   const showSidebar = () => setSidebar(!sidebar);
 
   return (
