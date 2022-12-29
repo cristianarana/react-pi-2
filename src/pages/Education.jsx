@@ -2,13 +2,14 @@ import React from "react";
 import PropTypes from "prop-types";
 import EducationCard from "../components/Education/Education_card";
 import { useTranslation } from "react-i18next"; 
+import '../components/Education/Education.css';
 
 export default function Education(props) {
   const {t} = useTranslation();
   const { data } = props;
   const { component } = props;
   return (
-    <section id="resume" className="resume">
+    <section id="education" className="education">
       <div className="container">
         <div className="section-title">
           <h2>{t('education.title')}</h2>
@@ -17,14 +18,14 @@ export default function Education(props) {
 
         <div className="row">
           <div className="col-lg-6" data-aos="fade-up">
-            <h3 className="resume-title">{t('education.education')}</h3>
+            <h3 className="education-title">{t('education.education')}</h3>
             {data?.map((e, index) => (
               <EducationCard key={`key-${index}`} {...e} />
             ))}
           </div>
           <div className="col-lg-6" data-aos="fade-up">
-            <h3 className="resume-title">{t('education.skills')}</h3>
-            <div className="resume-item pb-0">
+            <h3 className="education-title">{t('education.skills')}</h3>
+            <div className="education-item pb-0">
               <h4>{t('education.technologies')}</h4>
               <ul>
                 {component.dev?.map((e,value) => (
@@ -32,7 +33,7 @@ export default function Education(props) {
                 ))}
               </ul>
             </div>
-            <div className="resume-item pb-0">
+            <div className="education-item pb-0">
               <h4>{t('education.workingmethod')}</h4>
               <ul>
                 {component.work?.map((value) => (

@@ -5,7 +5,7 @@ import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Experience from './pages/Experience/Experience';
 import Education from './pages/Education';
-import Contact from './pages/Contact';
+import Contact from './pages/Contact/Contact';
 import Resume from './pages/Resume';
 import { useEffect, useState } from 'react';
 import Axios from 'axios';
